@@ -1,1 +1,43 @@
-/* Acá va tu código */
+body {
+    background-image: url(jovenes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    
+}
+
+
+.ventana {
+    background: #92b2e2;
+}
+
+h1{
+    width: 100%;
+    
+}
+
+div{
+    padding-bottom:25px;
+    
+}
+.container {
+    text-align: center;
+    padding:10px;
+}
+
+textarea{
+    border: 1px solid #92b2e2;
+}
+
+.caja-contenedora{
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #fff; 
+    opacity:80% ;
+    border: 1px solid #6200ff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px #000;
+    /* eje X - Y - Desenfoque - Color */
+    width: 60%;
+    margin: 0px auto;
