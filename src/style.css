@@ -1,20 +1,20 @@
-body {
+.bg {
     background-image: url(jovenes.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-
-
-    
+    background-repeat: no-repeat;    
 }
-
-
 .ventana {
-    background: #92b2e2;
-}
-
-h1{
+    background: #c9e1e8;
+    border-radius: 10px;
+    font-display: helvetica;
     width: 100%;
-    
+    margin: 10px;
+}
+ 
+p{
+    font-display: helvetica;
+    float: center;
+    margin: 20px;
 }
 
 div{
@@ -28,8 +28,9 @@ div{
 
 textarea{
     border: 1px solid #92b2e2;
+    margin: 20px;
+    
 }
-
 .caja-contenedora{
     padding: 40px;
     box-sizing: border-box;
@@ -41,3 +42,4 @@ textarea{
     /* eje X - Y - Desenfoque - Color */
     width: 60%;
     margin: 0px auto;
+}

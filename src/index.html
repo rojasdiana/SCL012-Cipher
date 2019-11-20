@@ -1,47 +1,41 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <title>Cifrado Cesar</title>
     
     <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="assets/styles/estilos.css"> -->
-</head>w
 
+</head>
 <body class="bg_body">
 
-    <div class="ventana"> Bienvenido oahfoidhsofhsdohfds</div>
-    <header>
-       
-        <section id="contenedor">
-            <a href="#">Mas</a>
-        </section>
-    </header>  
-    
-
+    <div class="ventana">
+        Aquí podras planificar fiestas con tus amigos sin que el festejado se entere.
+       PARA ESTO DEBEN FIJAR LA FECHA DEL EVENTO Y ESCRIBIR EL MENSAJE.
+    </div>
+   
     <div class="container">
             <img src="logo2.jpg">
         
         <div class="caja-contenedora">
-            
-            Escribe tu mensaje:   <br>
+            <p> Escribe tu mensaje:   </p>
+           
             <textarea id="mensaje" cols="70%" rows="10"  placeholder="Escribe aquí"></textarea>
-            <br>
-            <br></br>
-            Ingresa nº del día de tu sorpresa :
+            
+            <p>Ingresa nº del día de tu sorpresa :</p>
             <input id="numero">
-            <br></br>
-            <br>        
+                   
             <button id="btnCifrar">Cifrar</button> 
             <button id="btnDecifrar">Descifrar</button>
-        </br>
         
-        <br>
-        Tu mensaje secreto es... <br>
-        <input type="text" id="resultado" cols="70%" rows="10%" >
-       
+        <p>Tu mensaje secreto es...</p> 
+        
+        <p id="resultado" ></p>
+        
          </div>
     </div>
-<!--<script src="cipher.js"></script>-->
-<script src="apps.js"></script>
+
+<script src="index.js"></script>
+<script src="cipher.js"></script>
 </body>
 </html>
